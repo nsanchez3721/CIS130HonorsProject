@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		280078C1273EFB6000624EE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 280078C0273EFB6000624EE1 /* main.cpp */; };
+		287D706A275A7DCE00F09350 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 287D7068275A7DCE00F09350 /* Employee.cpp */; };
+		287D706D275A867F00F09350 /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 287D706B275A867F00F09350 /* Customer.cpp */; };
+		287D7070275A888E00F09350 /* Order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 287D706E275A888E00F09350 /* Order.cpp */; };
+		287D7073275A8C4C00F09350 /* Tip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 287D7071275A8C4C00F09350 /* Tip.cpp */; };
+		287D7079275A934100F09350 /* Rating.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 287D7077275A934100F09350 /* Rating.cpp */; };
+		288D99CB276C392D002F1E1B /* RatingItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 282D81E92763D7B500732540 /* RatingItem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		280078BD273EFB6000624EE1 /* CIS 130 Honors Project (Endiro Tipping Scheme) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CIS 130 Honors Project (Endiro Tipping Scheme)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		280078C0273EFB6000624EE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		282D81E92763D7B500732540 /* RatingItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RatingItem.cpp; sourceTree = "<group>"; };
+		282D81EA2763D7B500732540 /* RatingItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RatingItem.hpp; sourceTree = "<group>"; };
+		287D7068275A7DCE00F09350 /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		287D7069275A7DCE00F09350 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		287D706B275A867F00F09350 /* Customer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
+		287D706C275A867F00F09350 /* Customer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
+		287D706E275A888E00F09350 /* Order.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Order.cpp; sourceTree = "<group>"; };
+		287D706F275A888E00F09350 /* Order.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Order.hpp; sourceTree = "<group>"; };
+		287D7071275A8C4C00F09350 /* Tip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tip.cpp; sourceTree = "<group>"; };
+		287D7072275A8C4C00F09350 /* Tip.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tip.hpp; sourceTree = "<group>"; };
+		287D7077275A934100F09350 /* Rating.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rating.cpp; sourceTree = "<group>"; };
+		287D7078275A934100F09350 /* Rating.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rating.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,8 @@
 		280078B4273EFB6000624EE1 = {
 			isa = PBXGroup;
 			children = (
+				282D81EA2763D7B500732540 /* RatingItem.hpp */,
+				282D81E92763D7B500732540 /* RatingItem.cpp */,
 				280078BF273EFB6000624EE1 /* CIS 130 Honors Project (Endiro Tipping Scheme) */,
 				280078BE273EFB6000624EE1 /* Products */,
 			);
@@ -58,6 +78,16 @@
 			isa = PBXGroup;
 			children = (
 				280078C0273EFB6000624EE1 /* main.cpp */,
+				287D7069275A7DCE00F09350 /* Employee.hpp */,
+				287D7068275A7DCE00F09350 /* Employee.cpp */,
+				287D706C275A867F00F09350 /* Customer.hpp */,
+				287D706B275A867F00F09350 /* Customer.cpp */,
+				287D706F275A888E00F09350 /* Order.hpp */,
+				287D706E275A888E00F09350 /* Order.cpp */,
+				287D7078275A934100F09350 /* Rating.hpp */,
+				287D7077275A934100F09350 /* Rating.cpp */,
+				287D7072275A8C4C00F09350 /* Tip.hpp */,
+				287D7071275A8C4C00F09350 /* Tip.cpp */,
 			);
 			path = "CIS 130 Honors Project (Endiro Tipping Scheme)";
 			sourceTree = "<group>";
@@ -89,7 +119,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					280078BC273EFB6000624EE1 = {
 						CreatedOnToolsVersion = 13.1;
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288D99CB276C392D002F1E1B /* RatingItem.cpp in Sources */,
+				287D706D275A867F00F09350 /* Customer.cpp in Sources */,
 				280078C1273EFB6000624EE1 /* main.cpp in Sources */,
+				287D7073275A8C4C00F09350 /* Tip.cpp in Sources */,
+				287D7079275A934100F09350 /* Rating.cpp in Sources */,
+				287D7070275A888E00F09350 /* Order.cpp in Sources */,
+				287D706A275A7DCE00F09350 /* Employee.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +276,7 @@
 		280078C5273EFB6000624EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -248,6 +285,7 @@
 		280078C6273EFB6000624EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
